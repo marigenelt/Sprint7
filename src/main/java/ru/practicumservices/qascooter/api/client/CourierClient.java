@@ -2,11 +2,11 @@ package ru.practicumservices.qascooter.api.client;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-import ru.praktikumservices.qascooter.Courier;
+import ru.practicumservices.qascooter.Courier;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
-import static ru.praktikumservices.qascooter.CourierCreds.credsFromCourier;
+import static ru.practicumservices.qascooter.CourierCreds.credsFromCourier;
 
 public class CourierClient implements Client{
     public static final String LOGIN_PATH = "/api/v1/courier/login";
